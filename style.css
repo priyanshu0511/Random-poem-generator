@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Karla&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Esteban', serif;
+}
+
+body{
+        background-image: url("Background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; 
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.container{
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.container img{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.generate{
+    background-color: black;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 60%;
+    color: white;
+}
+
+.generate:active{
+    background-color: rgba(0, 0, 0, 0.637);
+}
